@@ -191,6 +191,12 @@ ul, ol { list-style: none; }
   letter-spacing: 1px;
 }
 
+.header-logo-img {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+
 .nav-links {
   display: flex;
   gap: 8px;
@@ -712,6 +718,23 @@ ul, ol { list-style: none; }
   line-height: 1.6;
 }
 
+.contact-link-icon {
+  color: inherit;
+  transition: color var(--transition);
+}
+.contact-link-icon:hover {
+  color: var(--brown);
+}
+
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+  transition: color var(--transition);
+}
+.contact-link:hover {
+  color: var(--gold-dark);
+}
+
 .contact-divider {
   border: none;
   border-top: 1px solid var(--cream-dark);
@@ -836,6 +859,13 @@ ul, ol { list-style: none; }
   font-weight: 500;
   color: var(--cream-light);
   margin-bottom: 8px;
+}
+
+.footer-logo-img {
+  height: 64px;
+  width: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 .footer-tagline {
