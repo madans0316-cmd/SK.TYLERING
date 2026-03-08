@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Build WhatsApp message
       const waText = [
-        '🌸 *SHASHI KALA – ಹೊಸ ಆದೇಶ ವಿನಂತಿ*',
+        '🌸 *S K Tylering – ಹೊಸ ಆದೇಶ ವಿನಂತಿ*',
         '',
         `👤 *ಹೆಸರು:* ${name}`,
         `📞 *ಫೋನ್:* ${phone}`,
